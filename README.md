@@ -1,20 +1,23 @@
 # Homebrew Tap for duobolt
 
-Fast duplicate file finder using BLAKE3 hashing.
+Fast duplicate file finder using BLAKE3 hashing (Rust CLI).
 
 ## Installation
 
 ```bash
-brew install rnine/duobolt/duobolt
+brew tap rnine/duobolt
+brew install duobolt
+# or: brew install rnine/duobolt/duobolt
 ```
 
 ## Usage
 
 ```bash
+duobolt-cli <directory...> [options]
+duobolt-cli ~/Documents --ignore-system-files --output=json
 duobolt-cli --help
-duobolt-cli scan /path/to/folder
 ```
 
 ## Documentation
 
-https://duobolt.app/docs/
+https://duobolt.app/cli-usage/
