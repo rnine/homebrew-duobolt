@@ -1,26 +1,26 @@
 class Duobolt < Formula
   desc "Fast duplicate file finder using BLAKE3 hashing"
   homepage "https://duobolt.app"
-  version "0.4.0"
+  version "0.4.4"
   license "Freeware"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.duobolt.app/mac/cli/aarch64/duobolt-cli-0.4.0.tar.gz"
-      sha256 "b28e59c2869ae5c84bfc11dd3202ab33291ac6eb8fc5953d23b3da30a64cba19"
+      url "https://downloads.duobolt.app/mac/cli/aarch64/duobolt-cli-0.4.4.tar.gz"
+      sha256 "36f9db9f6ed787de91b50b93d5ace0ca46df22298896b7a466f79f3aefccac44"
     else
-      url "https://downloads.duobolt.app/mac/cli/x86_64/duobolt-cli-0.4.0.tar.gz"
-      sha256 "975acb90b263ce0da9eb6e9c0ceb4c908c5147f9842aad9eaf5008f29391c60c"
+      url "https://downloads.duobolt.app/mac/cli/x86_64/duobolt-cli-0.4.4.tar.gz"
+      sha256 "fa538bf341f1bfeef3d9f4c10696b2c0234011a18683c06d670a3551414f80a4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.duobolt.app/linux/cli/aarch64/duobolt-cli-0.4.0.tar.gz"
-      sha256 "58933d88b099b4c260cc67d85591587c1daf341a7a6c6f02b38de89b4adca966"
+      url "https://downloads.duobolt.app/linux/cli/aarch64/duobolt-cli-0.4.4.tar.gz"
+      sha256 "66ad861073aff3c147fd5f7e3e5eb95cb1ae9aba79bc109d620cad7954c4eb97"
     else
-      url "https://downloads.duobolt.app/linux/cli/x86_64/duobolt-cli-0.4.0.tar.gz"
-      sha256 "a3155e634ae6fc717bf626f97aacb7a5c44bd6baa591c153d9ba8e7c7ff35828"
+      url "https://downloads.duobolt.app/linux/cli/x86_64/duobolt-cli-0.4.4.tar.gz"
+      sha256 "a23e5f08a894c96a8c1e8b792cbe51e2453567b9b3a31b8e0bb0f780aabadf55"
     end
   end
 
