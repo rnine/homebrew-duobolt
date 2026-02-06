@@ -4,7 +4,7 @@ cask "duobolt-desktop" do
 
   url "https://duobolt.app/dl/macos/#{version}"
   name "DuoBolt"
-  desc "Fast duplicate file finder"
+  desc "Desktop duplicate file finder with a clear review-first cleanup workflow"
   homepage "https://duobolt.app"
 
   auto_updates true
