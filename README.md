@@ -1,17 +1,23 @@
-# Homebrew Tap for DuoBolt
+# Homebrew Tap for duobolt
 
-DuoBolt provides a CLI and a desktop app.
+Fast duplicate file finder using BLAKE3 hashing (Rust CLI).
 
-## Install CLI
+## Installation
 
 ```bash
 brew tap rnine/duobolt
 brew install duobolt
+# or: brew install rnine/duobolt/duobolt
 ```
 
-## Install Desktop App
+## Usage
 
 ```bash
-brew tap rnine/duobolt
-brew install --cask duobolt-desktop
+duobolt-cli <directory...> [options]
+duobolt-cli ~/Documents --ignore-system-files --output=json
+duobolt-cli --help
 ```
+
+## Documentation
+
+https://duobolt.app/cli-usage/
