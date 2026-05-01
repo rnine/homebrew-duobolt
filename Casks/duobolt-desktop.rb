@@ -1,6 +1,6 @@
 cask "duobolt-desktop" do
-  version "1.3.14"
-  sha256 "675673182329dc612e7cbb0dfee1bed53987d293224170d65e3e9f7d0a48c1e0"
+  version "1.4.0"
+  sha256 "e52dc475e2e9cd0c3f62cbf713dfed2051ce589168cb46ae70a3e682da5ce801"
 
   url "https://duobolt.app/dl/macos/#{version}"
   name "DuoBolt"
